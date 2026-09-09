@@ -3,7 +3,7 @@ name: Scheduled trigger
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   report:
